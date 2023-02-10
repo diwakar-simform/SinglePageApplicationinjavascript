@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.fontcolor{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.bgcolor{
+    background-color: white;
+}
+
+/* Code is for nav section */
+nav{
+    height: 80px;    
+}
+.mynav{
+    margin-top: 15px;
+    display: flex;
+    float: left;
+}
+
+.mynav li{
+    list-style: none;
+    padding: 0px 15px;
+    color: white;
+    cursor: pointer;
+}
+.mynav li:hover{
+    color: black;
+}
+
+/* Code is for home page */
+.mylogo h3{
+    padding-left: 500px;
+}
+
+.myrow{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 1000px;
+    
+}
+
+.myrowcontent{
+    text-align: center;
+    padding-top: 15%;
+    color: white;
+    
+}
+.myrowcontent i{
+    color: white;
+    padding-top: 15%;
+    font-size: 150px;
+}
+.myrowcontent h1{
+    font-size: 150px;
+}
+.myrowcontent h1:hover, .myrowcontent p:hover, .myrowcontent i:hover{
+    color: green;
+}
+
+.myrowcontent p{
+    font-size: 30px;
+}
+
+
+/* code is for aboutus section */
+.aboutus{
+    padding-top: 4%;
+    background-color: #6E07F3;
+    height: 460px;
+}
+.aboutus h1{
+    font-size: 50px;
+    text-align: center;
+}
+.aboutus h2{
+    padding: 25px;
+    text-align: center;
+}
+.aboutus p{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+    font-size: large;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+/* code is for image slider section */
+.imgcontainer{
+    width: 100%;
+    height: 100vh;
+    background:#222;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.swiper{
+    width: 90%;
+    height: 80vh;
+    margin-top: 90px;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: white;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background-color: white;
+}
+
+/* Code is for services section */
+.services{
+    margin: auto;
+    height: 92vh;
+    width: 100%;
+    background-color: lightskyblue;
+    padding-top: 100px;
+}
+
+.container{
+    border-radius: 50px;
+    background-color:bisque;
+}
+
+.row{
+    height: 70vh;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.col-lg-4 i{
+    color: black;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.col-lg-4 ul li{
+    list-style-type: none;
+}
+
+#heading{
+    color: red;
+    font-size: 50px;
+}
+.subheading{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.col-lg-4 ul span{
+    font-size: 18px;
+    font-weight: bold;
+}
